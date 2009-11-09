@@ -2,9 +2,10 @@
 foo: bar
 ---
 {% include doctype.html %}
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  {% include head.html %}
   <body>
-    {% include head.html %}
+
     {% include header.html %}
 
     <div id="main" class="container">
