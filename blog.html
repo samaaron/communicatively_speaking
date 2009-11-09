@@ -12,7 +12,7 @@
           {% for post in site.posts limit: 5 %}
           <h1>{{post.title}}</h1>
           <h3>Posted on {{post.date | date:'%A'}} the {{post.day}}<sup>{{post.suffix}}</sup> of {{post.date | date:'%B'}}, {{post.date | date:'%Y'}}</h3>
-          {{ content }}
+          {{ post.content }}
           {% endfor %}
         </div>
       </div>

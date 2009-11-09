@@ -1,0 +1,23 @@
+<div id="bottominfo">
+  <div class="container">
+    <div class="bottomcolumn">
+      <h3>Recent Posts</h3>
+      <br/>
+      <ul class="borderedlist iconlist">
+        {% for post in site.posts limit: 5 offset: 1%}
+        <li><a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- bottom center information -->
+    <div class="bottomcolumn bottomright">
+      <h3>Similar Posts</h3>
+      <br/>
+      <ul class="borderedlist iconlist">
+        {% for post in site.related_posts limit: 5 offset: 1%}
+        <li><a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
