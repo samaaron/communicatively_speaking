@@ -23,11 +23,9 @@
     <div id="main" class="container">
       <div id="blog">
         <div class="main_content">
-          {% for post in site.posts limit: 5 %}
-          <h1>{{post.title}}</h1>
-          <h3>Posted on {{post.date | date:'%A'}} the {{post.day}}<sup>{{post.suffix}}</sup> of {{post.date | date:'%B'}}, {{post.date | date:'%Y'}}</h3>
+          <h1>{{page.title}}</h1>
+          <h3>Posted on {{ | date:'%A'}} the {{page.day}}<sup>{{page.suffix}}</sup> of {{page.date | date:'%B'}}, {{page.date | date:'%Y'}}</h3>
           {{ content }}
-          {% endfor %}
         </div>
       </div>
     </div>
