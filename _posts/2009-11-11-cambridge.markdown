@@ -26,8 +26,8 @@ managed to get a glimpse of the condensed beauty it offers. Even
 compared to Amsterdam it is a tiny city, and like Amsterdam it offers
 wonderful architecture, a rich cultural history and an affinity for
 cycling. Although don't get your hopes up too much - this is still
-strictly an English city and it's cycling offerings are only
-relatively better than other English offerings - [all of which pale in
+strictly an English city and its cycling offerings are only
+relatively better than those available elsewhere in England - [all of which pale in
 comparison][2] to the [facilities here in the Netherlands][3].
 
 However, what I hadn't experienced until last week's visit were the
