@@ -26,7 +26,7 @@ foo: bar
         <div class="main_content">
           {% for post in site.posts | reverse | limit: 5 %}
           <h1>{{post.title}}</h1>
-          <h3>Posted on {{post.date | date:'%A'}} the {{post.day}}<sup>{{post.suffix}}</sup> of {{post.date | date:'%B'}}, {{post.date | date:'%Y'}}</h3>
+          <h3>Posted on {{post.date | date_to_english_html_string}} </h3>
           {{ post.content }}
           {% endfor %}
         </div>
