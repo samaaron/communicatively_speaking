@@ -27,22 +27,23 @@ h1 a{
     font: 24px/24px Arial, Helvetica, sans-serif;
     font-weight: bold;
     letter-spacing: -2px;
-    padding: 22px 9px 25px 20px;
+    padding: 22px 9px 25px 20px;a
     display: block;
     color: #fff;
 }
 
 #header .container{height: 253px;}
 
-#header .container #title{
+#title {
     text-align: right;
     float: right;
     position: relative;
     top: 100px;
     font: italic 50px "Gill Sans", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    color: #4B4942;
 }
 
-#header .container #name{
+#name{
     text-align: right;
     float: right;
     position: relative;

@@ -10,7 +10,7 @@
     <div id="main" class="container">
       <div id="blog">
         <div class="main_content">
-          <h1>{{page.title}}</h1>
+          <a href="{{page.url}}"><h1>{{page.title}}</h1></a>
           <h3>Posted on {{ | date:'%A'}} the {{page.day}}<sup>{{page.suffix}}</sup> of {{page.date | date:'%B'}}, {{page.date | date:'%Y'}}</h3>
           {{ content }}
         </div>

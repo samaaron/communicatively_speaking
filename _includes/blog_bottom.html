@@ -1,17 +1,7 @@
 <div id="bottominfo">
   <div class="container">
     <div class="bottomcolumn">
-      <h3>Recent Posts</h3>
-      <br/>
-      <ul class="borderedlist iconlist">
-        {% for post in site.posts limit: 5 %}
-        <li>
-          <p class="list_date">{{post.date | date_to_short_english_html_string}}</p>
-
-          <p><a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></p>
-        </li>
-        {% endfor %}
-      </ul>
+      {% include recent_post_list.html %}
     </div>
     <!-- bottom center information -->
     <div class="bottomcolumn bottomright">
