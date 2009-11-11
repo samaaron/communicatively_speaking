@@ -15,7 +15,7 @@ module Jekyll
     end
 
     def date_to_english_html_string(date)
-      "foo" + date.strftime("%A the #{date_to_single_digit_day(date)}<sup>#{date_to_day_ordinal(date)}</sup> of %B, %Y")
+      date.strftime("%A the #{date_to_single_digit_day(date)}<sup>#{date_to_day_ordinal(date)}</sup> of %B, %Y")
     end
 
   end
