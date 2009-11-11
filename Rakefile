@@ -7,9 +7,9 @@ end
 desc "Create a new post for today"
 task :post do
   puts ""
-  puts "==================="
-  puts "Creating a new post"
-  puts "==================="
+  puts "===================".color(:blue)
+  puts "Creating a new post".color(:blue)
+  puts "===================".color(:blue)
   puts ""
   puts "What is the title of the post?"
   print "> "
