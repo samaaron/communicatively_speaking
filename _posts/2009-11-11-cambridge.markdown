@@ -16,9 +16,10 @@ of isolation.
 So very luckily, [Innovation Factory][1] the company I work for,
 are fantastically understanding about this and have agreed to let me
 work remotely one week a month from Cambridge. I really feel proud to
-have such caring colleagues to support me with this arrangement. Which
-means I spent last week living and working back in England from the
-(then remarkably pleasant) climes of Cambridge.
+have such caring colleagues to support me with this arrangement.
+
+All of this means I spent last week living and working back in England
+from the (then remarkably pleasant) climes of Cambridge.
 
 I have only ever briefly visited Cambridge before this stay, so only
 managed to get a glimpse of the condensed beauty it offers. Even
