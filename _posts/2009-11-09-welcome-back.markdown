@@ -1,7 +1,5 @@
 ---
 layout: blog
-day: 9
-suffix: th
 ---
 
 For those that have noticed the recent lull in postings, you will be
