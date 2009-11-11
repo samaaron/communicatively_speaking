@@ -25,16 +25,6 @@ task :post do
     file.puts "---"
     file.puts "title: #{title}"
     file.puts "layout: blog"
-    file.puts "day: #{date.day}"
-
-    suffix = case date.day
-             when 1, 21, 31 then "st"
-             when 2, 22    then "nd"
-             when 3, 23    then "rd"
-             else "th"
-             end
-
-    file.puts "suffix: #{suffix}"
     file.puts "---"
     file.puts ""
   end
