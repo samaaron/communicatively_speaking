@@ -10,7 +10,7 @@ layout: nil
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://sam.aaron.name</id>
  <author>
-   <name>Sam Aaronr</name>
+   <name>Sam Aaron</name>
    <email>sam.aaron@acm.org</email>
  </author>
 
