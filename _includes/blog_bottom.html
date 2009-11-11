@@ -4,8 +4,12 @@
       <h3>Recent Posts</h3>
       <br/>
       <ul class="borderedlist iconlist">
-        {% for post in site.posts limit: 5 offset: 1%}
-        <li><a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
+        {% for post in site.posts limit: 5 %}
+        <li>
+          <p class="list_date">{{post.date | date_to_short_english_html_string}}</p>
+
+          <p><a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></p>
+        </li>
         {% endfor %}
       </ul>
     </div>
@@ -14,7 +18,7 @@
       <h3>Similar Posts</h3>
       <br/>
       <ul class="borderedlist iconlist">
-        {% for post in site.related_posts limit: 5 offset: 1%}
+        {% for post in site.related_posts limit: 5 %}
         <li><a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a></li>
         {% endfor %}
       </ul>

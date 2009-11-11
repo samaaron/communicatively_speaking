@@ -298,3 +298,16 @@ ul.borderedlist li{
 #blog em{
     font-style: italic;
 }
+
+.bottomcolumn p{
+    padding-bottom: 10;
+    padding-top: 0;
+}
+
+.bottomcolumn p.list_date{
+    padding-top: 10;
+    padding-bottom: 0;
+    font-size: 10px;
+    font-style: italic;
+    text-align: left;
+}

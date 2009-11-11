@@ -15,7 +15,7 @@ task :post do
   print "> "
   title = STDIN::gets
 
-  file_friendly_title = title.strip.gsub(/[^a-zA-Z0-9]/, '-').gsub(/-+/, '-').gsub(/\A-*/, '').gsub(/-*\Z/, '')
+  file_friendly_title = title.strip.gsub(/[^a-zA-Z0-9]/, '-').gsub(/-+/, '-').gsub(/\A-*/, '').gsub(/-*\Z/, '').downcase
 
   date = Time.now
   filename = "#{date.strftime("%Y-%m-%d-#{file_friendly_title}.markdown")}"

@@ -18,5 +18,9 @@ module Jekyll
       date.strftime("%A the #{date_to_single_digit_day(date)}<sup>#{date_to_day_ordinal(date)}</sup> of %B, %Y")
     end
 
+    def date_to_short_english_html_string(date)
+      date.strftime("#{date_to_single_digit_day(date)}<sup>#{date_to_day_ordinal(date)}</sup> of %B, %Y")
+    end
+
   end
 end
