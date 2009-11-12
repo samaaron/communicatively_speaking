@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Communicatively Speaking</title>
+ <link href="http://sam.aaron.name/atom.xml" rel="self"/>
+ <link href="http://sam.aaron.name"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://sam.aaron.name</id>
+ <author>
+   <name>Sam Aaron</name>
+   <email>sam.aaron@acm.org</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://sam.aaron.name{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://sam.aaron.name{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
+</feed>
