@@ -3,7 +3,7 @@ layout: default
 ---
 ##Welcome
 
-I am really fascinated with the concept of communicative programming and as
+I am a software architect with a deep fascination with the concept of communicative programming and as
 such am interested in the aesthetics of programming languages, domain
 specific languages and language oriented programming.
 
