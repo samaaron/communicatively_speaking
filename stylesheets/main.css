@@ -54,7 +54,7 @@ h1 a{
 
 #header{
     height: 250px;
-    background: #4a4841 url(../images/top_bg.jpg) top repeat-x;
+    background: #4a4841 url(../images/layouts/header_background.png) top repeat-x;
     position: relative;
 }
 
@@ -311,4 +311,15 @@ ul.borderedlist li{
     font-size: 10px;
     font-style: italic;
     text-align: left;
+}
+
+.middle {
+    text-align: center;
+}
+
+#page h1 {
+    font: italic 45px "Gill Sans", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    position: relative;
+    color: #ff0080;
+    padding-top:10px;
 }

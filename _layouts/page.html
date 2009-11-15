@@ -1,22 +1,18 @@
+---
+---
 {% include doctype.html %}
 <html xmlns="http://www.w3.org/1999/xhtml">
   {% include head.html %}
   <body>
 
-    {% include main_header.html %}
+    {% include cv_header.html %}
 
     <div id="main" class="container">
-
-      {% include twitter.html %}
-
-      <div id="center">
+      <div id="page">
         <div class="main_content">
-          <img id="sam" src="images/layouts/sam.png" alt="Sam Aaron" />
           {{ content }}
         </div>
       </div>
-
-      {% include interests.html %}
     </div>
 
     {% include main_bottom.html %}
