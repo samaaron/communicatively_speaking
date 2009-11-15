@@ -81,14 +81,15 @@ h1 a{
 
 #topnav li{
     float: left;
-    padding-right: px;
+    padding-right: 12px;
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: normal;
 }
 
 #topnav li a{color: #fff;}
-#topnav li a:hover,#topnav li.active a{color: #2c2c2c;}
+#topnav li a:hover {text-decoration: underline ;}
+#topnav li.active a{color: #2c2c2c;}
 
 
 #leftcolumn{
